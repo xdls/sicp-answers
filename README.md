@@ -3,4 +3,6 @@
 
 这是我对此书习题的完整解决方案
 
+解释器使用[ChezScheme](https://github.com/cisco/chezscheme)
+
 如有错误和不解，请提issue
