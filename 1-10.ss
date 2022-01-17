@@ -1,5 +1,3 @@
-#lang racket
-
 (define (A x y)
   (cond ((= y 0) 0)
         ((= x 0) (* 2 y))
@@ -14,3 +12,7 @@
 (define (f n) (A 0 n))
 (define (g n) (A 1 n))
 (define (h n) (A 2 n))
+
+;; f 2n
+;; g 2^n
+;; h 0 for n=0, 2 for n=1, 2^(2^(2^(2...(n times)))) for n>1
